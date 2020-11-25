@@ -4,10 +4,10 @@ pragma solidity >=0.4.22 <0.8.0;
 import "./IDudleToken.sol";
 
 contract Interacting {
-    DudleToken public calledAddress;
+    IDudleToken public calledAddress;
     
     function set_address(address _addr) public {
-        calledAddress = DudleToken(_addr);
+        calledAddress = IDudleToken(_addr);
     }
     
     //Mint ERC20 tokens of someones's contract
