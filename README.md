@@ -1,2 +1,3 @@
 # Interacting
-Intract contract with another contract
+
+Contract Interacting has access to DudleToken contracts's functions.
